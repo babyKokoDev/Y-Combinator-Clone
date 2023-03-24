@@ -1,0 +1,356 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+body{
+    margin: 0;
+    background-color: rgb(245, 245, 238);
+    font-family: 'Avenir', sans-serif;
+}
+
+header{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aquamarine; */
+    border-bottom: 0.3px inset #dedede;
+    position: relative;
+}
+
+nav{
+    position: absolute;
+    top: 4%;
+    /* height: 60px; */
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+  /* background-color: blueviolet; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-family: 'Avenir', sans-serif;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: start;
+    margin: 10px 10px;
+
+}
+
+nav ul li a:hover{
+    color: rgb(38, 139, 210);
+}
+
+button.hd{
+    font-size: 18px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #fda942;
+    border: none;
+    border-radius: 5px;
+    line-height: 29px;
+    font-weight: 700;
+}
+
+button.hd:hover{
+    background-color: rgb(55, 151, 219);
+}
+
+.yc{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.3px inset #dedede;
+    position: relative;
+}
+p.yt{
+    position: absolute;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    line-height: normal;
+    vertical-align: baseline;
+    text-align: left;
+    bottom: 0px;
+}
+
+.about{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.3px solid #dedede;
+    position: relative;
+    min-height: 620px;
+}
+
+.story{
+    width: 50%;
+    height: 100%;
+    left: 0;
+    /* background-color: aqua; */
+    position: absolute;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+h3.ab{
+    color: #F0652F;
+    font-size: 16px;
+    line-height: 28px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 20px;
+    padding: 0px;
+}
+
+p.ba{
+    text-align: start;
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px 0px 20px;
+    padding: 0px;
+    font-weight: 200;
+}
+
+
+.content{
+    width: 350px;
+    height: 200px;
+    right: 0%;
+    top: 35px;
+    background-color: white;
+    position: absolute;
+    /* margin-left: 60%;
+    margin-top: 40px; */
+    padding: 5px;   
+    box-sizing: border-box;   
+}
+h4.cont{
+    margin-left: 20px;
+    width: 100px;
+    color: rgb(153, 153, 153);
+    line-height: 24px;
+    font-weight: 200;
+}
+
+.content ol{
+   margin-top: -10px;
+}
+
+.content ol li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 14px;
+    font-weight: 300;
+    line-height:20px;
+    padding-left: 5px;
+ }
+
+ .content ol li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    padding: 2px;
+ }
+
+ .content ol li a:hover{
+    background-color: rgb(219, 234, 254);
+    border-radius: 5px;
+ }
+
+ .portfolio{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.3px inset #dedede;
+    position: relative;
+    padding-top: 30px;
+}
+
+.team{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 0.3px inset #dedede;
+    position: relative;
+    padding-top: 40px;
+    min-height: 3600px; 
+}
+
+section.allteam{
+    position: absolute;
+    height: 100%;
+    top: 80px;
+
+}
+
+.teams{
+    width: 83%;
+    display: flex;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 25px;
+}
+
+p.alli{
+    display: block;
+}
+
+p.ali{
+    text-align: start;
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 0px;
+    font-weight: 200;
+    display: block;
+}
+
+footer{
+    width: 80%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aquamarine; */
+    border-bottom: 0.3px inset #dedede;
+    position: relative;
+}
+
+section.foot{
+    height: 250px;
+    /* background-color: #fda942; */
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot1{
+    width: 60%;
+    display: flex;
+    gap: 50px;
+    /* background-color: rebeccapurple; */
+}
+
+.log{
+    /* background-color: aquamarine; */
+}
+.progams{
+    /* background-color: blue; */
+    width: 150px;
+    margin-top: -12px;
+}
+
+.progams ul{
+    /* background-color: #F0652F; */
+    margin-top: -5px;
+}
+
+.progams ul li{
+    list-style-type: none;
+    margin-left: -40px;
+    padding: 3px;
+    padding-left: 0px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+    font-weight: 300;
+}
+
+.progams ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+
+}
+
+p.ftt{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+}
+
+.foot2{
+    width: 32%;
+    display: flex;
+    gap: 5px;
+    margin-top: -20px;
+    position: absolute;
+    right: 0px;
+    justify-content: space-between;
+}
+
+p.fot2{
+    font-size: 18.72px;
+    line-height: 28.08px;
+    font-weight: 200;
+    color: black;
+}
+
+button.hd1{
+    font-size: 18px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    background-color: #fda942;
+    border: none;
+    border-radius: 8px;
+    line-height: 29px;
+    font-weight: 700;
+    height: 40px;
+    width: 80px;
+    margin-top: 12px;
+}
+
+.footer2{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aquamarine; */
+    border-bottom: 0.3px inset #dedede;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    margin-top: 35px;
+}
+
+ul.socials{
+    display: flex;
+    gap: 26px;
+    margin-top: 35px;
+}
+
+ul.socials li{
+    list-style-type: none;
+}
+
+ul.socials li a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
